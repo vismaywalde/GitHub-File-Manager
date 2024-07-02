@@ -12,7 +12,7 @@ To run this project locally, follow these steps:
 1. Clone this repository.
 2. Install dependencies using npm: using command "npm install"
 3. Set up your GitHub API token in the `.env` file.
-4. Start the server: using command "npm install"
+4. Start the server: using command "node server.js"
 5. Open `http://localhost:3000` in your browser.
 
 ## Technologies Used
