@@ -11,14 +11,14 @@ const port = process.env.PORT || 3000;
 
 // Set up storage engine for multer
 const storage = multer.diskStorage({
-  destination: './uploads/',
+  destination: './',
   filename: function (req, file, cb) {
     cb(null, file.fieldname + '-' + Date.now() + path.extname(file.originalname));
   }
 });
 
 // Init upload
-const upload = multer({ storage: storage }).single('csvFile');
+const upload = multer({ storage: storage }).single('file');
 
 app.use(express.json());
 
@@ -27,7 +27,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 // Define a route for the root URL
 app.get('/', (req, res) => {
-  res.sendFile(path.join(__dirname, 'public', 'index.html'));
+  res.sendFile(path.join(__dirname, 'index.html'));
 });
 
 // Upload endpoint
@@ -53,7 +53,7 @@ app.post('/upload', (req, res) => {
     console.log('GitHub Token:', githubToken);
 
     const githubUrl = `https://api.github.com/repos/${repoOwner}/${repoName}/contents/${filePathInRepo}`;
-    const commitMessage = 'Add uploaded CSV file';
+    const commitMessage = 'Add uploaded file';
 
     try {
       const response = await axios.put(githubUrl, {
@@ -84,7 +84,7 @@ app.post('/upload', (req, res) => {
 app.get('/download', (req, res) => {
     const repoOwner = 'vismaywalde';
     const repoName = 'File-Upload-and-Download-System';
-    const fileName = 'file.csv'; // Name of the file to download from root of repository
+    const fileName = 'file'; // Name of the file to download from root of repository
 
     const githubToken = process.env.GITHUB_TOKEN; // Use an environment variable for security
 
