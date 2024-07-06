@@ -58,10 +58,7 @@
         </div>
         <h3 class="fs-2 text-body-emphasis">File Upload</h3>
         <p>"uploads file directly into the root of the repository of the GitHub account by using its API Token"</p>
-        <!-- <a href="#" class="icon-link">
-          Call to action
-          <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
-        </a> -->
+      
       </div>
     
       <div class="feature col">
@@ -82,10 +79,7 @@
         </div>
         <h3 class="fs-2 text-body-emphasis">Future Scope</h3>
         <p>"In the future, we aim to integrate this with an AI model to process the data from the file and obtain some usefull results."</p>
-        <!-- <a href="#" class="icon-link">
-          Call to action
-          <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
-        </a> -->
+       
       </div>
     </div>
   </div>
@@ -101,7 +95,7 @@
       const file = event.target.files[0];
       if (file) {
         const formData = new FormData();
-        formData.append('csvFile', file);
+        formData.append('file', file);
 
         fetch('/upload', {
           method: 'POST',
