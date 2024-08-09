@@ -12,7 +12,7 @@ A web-based application that allows users to upload and download files directly 
 
 ## Project Structure
 
-``plaintext
+plaintext
 temp/
 │
 ├── node_modules/
