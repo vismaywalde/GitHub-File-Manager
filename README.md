@@ -38,9 +38,9 @@ The server will run at http://localhost:3000.
 
 
 ## Future Enhancements
-AI Integration: Potential integration with AI models for processing uploaded files.
-Multi-file Upload: Adding support for batch file uploads.
-Enhanced Security: Additional security measures for API token management.
+- AI Integration: Potential integration with AI models for processing uploaded files.
+- Multi-file Upload: Adding support for batch file uploads.
+- Enhanced Security: Additional security measures for API token management.
 
 
 ## Acknowledgements
