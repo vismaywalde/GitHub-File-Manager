@@ -46,3 +46,10 @@ Deployed on Render, accessible at https://file-management-irwi.onrender.com
 - Bootstrap for UI components.
 - Render for backend deployment.
 - GitHub API for file management.
+
+## Technologies Used
+- Node.js
+- Express.js
+- GitHub API
+- HTML/CSS
+- Bootstrap
