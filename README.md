@@ -1,6 +1,6 @@
 # File Management System
 
-A web-based application that allows users to upload and download files directly to and from a GitHub repository using the GitHub API. The frontend is deployed on GitHub Pages, and the backend is deployed on Render.
+A web-based application that allows users to upload and download files directly to and from a GitHub repository using the GitHub API. 
 
 ## Features
 
@@ -17,7 +17,7 @@ Deployed on Render, accessible at https://file-management-irwi.onrender.com
 
 ## Usage
 Visit the website.
-Upload files to your GitHub repository via the "Upload File" button.
+Upload files to the GitHub repository via the "Upload File" button.
 Download files from the GitHub repository using the "Download File" button.
 After a successful upload, click on the "View GitHub Repo" button to navigate to your repository.
 
