@@ -28,13 +28,11 @@ Deployed on Render, accessible at https://file-management-irwi.onrender.com
 - A GitHub account and a repository to connect the application to.
 - A GitHub API token with appropriate permissions.
 
-## Installation
-- (1) Clone the Repository:
-- (2) Install Dependencies:
-- (3) Set Up Environment Variables:
-- (4) Create a .env file in the root directory and add your GitHub API token:
-- (5) Run the Server Locally:
-      The server will run at http://localhost:3000.
+1. Clone this repository.
+2. Install dependencies using npm: using command "npm install"
+3. Set up your GitHub API token in the `.env` file.
+4. Start the server: using command "node server.js"
+5. Open `http://localhost:3000` in your browser.
 
 
 ## Future Enhancements
