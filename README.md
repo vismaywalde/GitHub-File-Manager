@@ -24,16 +24,16 @@ After a successful upload, click on the "View GitHub Repo" button to navigate to
 # To run the project on your local server 
 
 ## Prerequisites
-> Node.js installed on your local machine.
-> A GitHub account and a repository to connect the application to.
-> A GitHub API token with appropriate permissions.
+- Node.js installed on your local machine.
+- A GitHub account and a repository to connect the application to.
+- A GitHub API token with appropriate permissions.
 
 ## Installation
-Clone the Repository:
-Install Dependencies:
-Set Up Environment Variables:
-Create a .env file in the root directory and add your GitHub API token:
-Run the Server Locally:
+(1) Clone the Repository:
+(2) Install Dependencies:
+(3) Set Up Environment Variables:
+(4) Create a .env file in the root directory and add your GitHub API token:
+(5) Run the Server Locally:
 The server will run at http://localhost:3000.
 
 
@@ -44,6 +44,6 @@ The server will run at http://localhost:3000.
 
 
 ## Acknowledgements
-Bootstrap for UI components.
-Render for backend deployment.
-GitHub API for file management.
+- Bootstrap for UI components.
+- Render for backend deployment.
+- GitHub API for file management.
