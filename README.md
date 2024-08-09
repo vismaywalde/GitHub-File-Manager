@@ -10,21 +10,6 @@ A web-based application that allows users to upload and download files directly 
 - **Secure Integration:** Utilizes environment variables to securely manage sensitive information like GitHub API tokens.
 - **Dynamic Interface:** UI updates to provide additional functionality, such as a link to the GitHub repository after file upload.
 
-## Project Structure
-
-plaintext
-temp/
-│
-├── node_modules/
-├── css/
-├── images/
-├── index.html
-├── .env
-├── package-lock.json
-├── package.json
-└── server.js
-
-
 
 
 ## Deployment
