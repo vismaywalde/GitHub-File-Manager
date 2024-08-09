@@ -28,6 +28,7 @@ Deployed on Render, accessible at https://file-management-irwi.onrender.com
 - A GitHub account and a repository to connect the application to.
 - A GitHub API token with appropriate permissions.
 
+## Steps
 1. Clone this repository.
 2. Install dependencies using npm: using command "npm install"
 3. Set up your GitHub API token in the `.env` file.
